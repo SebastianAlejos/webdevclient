@@ -1,0 +1,195 @@
+#navbar{
+  border-radius: 10px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 30px;
+  overflow: hidden;
+  background-color:#66ff00b9;
+  width: 99%;
+}
+
+#navbar li {
+  float: inline-start;
+}
+
+#navbar li a {
+  border-radius: 10px;
+  display: block;
+  color:#121417;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 125%;
+  font-weight: bolder;
+}
+
+#navbar li a:hover {
+  background-color: #3d9900;
+}
+#navbar li.icons{
+    float: right;
+}
+#navbar li a.active {
+  background-color: #7ef82d;
+}
+.icon{
+    width: 20px;
+}
+body{
+    background-image: url(img/bckgrnd.svg);
+    background-size:cover;
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    }
+h1{
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+}
+h2{
+    color: white;
+}
+#me{
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    float: right;
+    margin-left: 25px;
+    margin-right: 20px  ;
+}
+p{
+    color: white;
+    font-size: 125%;
+}
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+}
+.abilities{
+    list-style: none;
+}
+ul.abilities li{
+    color: white;
+    font-size: 125%;
+    margin-bottom: 20px;
+}
+.listimg{
+    margin-right: 10px;
+    width: auto;
+    height: 35px;
+}
+.skills{
+    list-style: none;
+}
+ul.skills li{
+    color: white;
+    font-size: 175%;
+    margin-bottom: 20px;
+}
+
+#progressbar75{
+  background-color: black;
+  border-radius: 13px;
+  width: 80%;
+  padding: 3px;
+  margin-top: 20px;
+}
+
+#progressbar75>div {
+  background-color: #66ff00b9;
+  width: 75%;
+  height: 10px;
+  border-radius: 10px;
+}
+#progressbar50{
+  background-color: black;
+  border-radius: 13px;
+  width: 80%;
+  padding: 3px;
+  margin-top: 20px;
+}
+
+#progressbar50>div {
+  background-color: #66ff00b9;
+  width: 50%;
+  height: 10px;
+  border-radius: 10px;
+}
+#progressbar90{
+  background-color: black;
+  border-radius: 13px;
+  width: 80%;
+  padding: 3px;
+  margin-top: 20px;
+}
+
+#progressbar90>div {
+  background-color: #66ff00b9;
+  width: 90%;
+  height: 10px;
+  border-radius: 10px;
+}
+
+.imgex{
+  width: 17%;
+  height: auto;
+  float: right;
+  margin-right: 30%;
+  margin-left: 5%;
+}
+.experience{
+    list-style-image: url(img/bulletgr.png);
+    color: white;
+    font-weight: bolder;
+    font-size: 150%;
+}
+.dates{
+  list-style:circle;
+  font-weight: bold;
+  font-size: 100%;
+}
+.details{
+  list-style: none;
+  font-weight: normal;
+  font-size: 90%;
+  margin-bottom: 90px;  
+}
+#basti{
+  border-radius: 50px;
+  float: right;
+  margin-right: 200px;
+  width: 250px;
+  height: auto;
+}
+.subtitle{
+  font-weight: bolder;
+  font-size: 150%;
+  display: inline-block;
+  color: #121417;
+}
+.info{
+  color: #121417;
+  margin-bottom: 30px;
+  display:inline-block;
+  margin-left: 35px;
+  font-size: 150%;
+}
+.block{
+  padding-left: 20px;
+  padding-bottom: 30px;
+  border:solid;
+  border-color:#3d9900;
+  background-color:#7ef82d ;
+  width: 40%;
+}
+#msg{
+  resize: none;
+  display: block;
+  margin-top: 30px;
+}

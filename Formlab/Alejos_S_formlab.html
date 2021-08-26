@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Form Lab</title>
+</head>
+
+<body>
+    <h1>Covid Vaccine Scheduling</h1>
+    <form action="mailto:" method="post" enctype="text/plain">
+        <label for="name" class="input">Your name:</label>
+        <input type="text" name="Full Name" id="name" class="input"> <br>
+
+        <label for="dob" class="input">Date of birth: </label>
+        <input type="date" name="dob" id="dob" class="input"><br>
+
+        <label for="gender" class="input">Please indicate your gender:</label><br>
+        <input type="radio" id="male" name="gender" value="male" class="input">
+        <label for="male" class="input">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female" class="input">
+        <label for="female" class="input">Female</label><br>
+        <input type="radio" id="other" name="gender" value="other" class="input">
+        <label for="other" class="input">Other</label><br>
+
+        <label for="date" class="input">Choose your appointment date:</label><br>
+        <select id="date" name="date" class="input">
+            <option value="Monday">Monday</option>
+            <option value="Tuesday">Tuesday</option>
+            <option value="Wednesday">Wednesday</option>
+            <option value="Thursday">Thursday</option>
+            <option value="Friday">Friday</option>
+        </select><br>
+
+        <input type="checkbox" id="vaccine" name="vaccine" value="secondDose" class="input">
+
+        <label for="vaccine" class="input">This is for my second dose </label><br>
+
+        <input type="submit" value="Send">
+        <input type="reset" value="Reset">
+    </form>
+    </table>
+
+</body>
+
+</html>

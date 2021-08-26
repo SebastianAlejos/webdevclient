@@ -1,0 +1,30 @@
+h3{
+    display: none;
+    position: absolute;
+    top: 2px;
+    right: 1000px;
+}
+h4{
+   display: none;
+   padding: 0px;
+}
+
+#obiwan{
+    width: 100px; 
+    height:auto;
+    position: absolute;
+    display: none;
+    right: 1000px;
+    top:50px;
+}
+#grevious{
+    width: 120px;
+    height: 170px;
+    position:absolute;
+    top: 30px;
+}
+#buttons{
+    position: absolute;
+    top: 300px;
+    padding:1% 1% 1% 1%;
+}

@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>(Unit 8) Introduction to JavaScript</title>
+</head>
+
+<body>
+    <h1>(Unit 9) Introduction to JavaScript</h1>
+    <!--Creating the div-->
+    <div id="write"></div>
+    <!--Script-->
+    <script type="text/javascript">
+        // Enter the javascript for each assignment below this line.
+        //ALERT FUNCTIONS
+        alert("Welcome to my homework");
+        alert("This is an alert");
+        //CONFIRM a user selection
+        var r = confirm("Would you like to continue?");
+        //TESTING that selection
+        if (r) {
+            alert("User chose OK");
+        } else {
+            alert("User chose to cancel");
+        }
+        //PROMPT
+        var answer = prompt("How old are you?");
+        //Using that answer
+        alert("You are " + answer + " years old");
+        //ARRAYS 
+        var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+        //DISPLAYING values
+        alert(months[1]);
+        alert(months[2]);
+        alert(months[3]);
+        alert(months[4]);
+        alert(months[5]);
+        alert(months[6]);
+        alert(months[7]);
+        //LOOP to display the months we want. 
+        for (i = 0; i < 5; i++) {
+            alert(months[i]);
+        }
+        //WRITING to a div through a loop
+        //Initialize the variable
+        var strMonths = "";
+        //concatanate the string
+        for (i = 0; i < months.length; i++) {
+            strMonths += "<p>" + months[i] + "</p>";
+        }
+        //Write into the div
+        document.getElementById("write").innerHTML = strMonths;
+        /*I had to move the script to the end of the body because the element with the id=write hadn't been created when I wanted
+        to access it and this was the best work around I found*/
+    </script>
+</body>
+
+</html>
